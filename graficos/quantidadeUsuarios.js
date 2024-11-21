@@ -35,7 +35,16 @@ const data = [
             color: getCSS('--secundary-color')
         }
       }
-    }
+    },
+    yaxis: {
+      tickfont: tickConfig,
+      title: {
+          text: "Bilhoes de usuários ativos",
+          font: {
+              color: getCSS('--secundary-color')
+          }
+        }
+      }
 }
 const grafico = document.createElement('div')
 grafico.className = 'grafico'
