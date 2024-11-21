@@ -12,7 +12,7 @@ const data = [
       x: nomeDasRedes,
       y: quantidadeUsuarios,
       type: 'bar', marker: {
-        color: getComputedStyle(document.body).getPropertyValue('--primary-color')
+       color: getCSS('--primary-color')
       }
     }
   ]
