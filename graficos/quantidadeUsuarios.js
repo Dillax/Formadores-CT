@@ -26,6 +26,15 @@ const data = [
          family: getCSS('--font'),
          size: 30,
       }
+    },
+    xaxis: {
+      tickfont: tickConfig,
+      title: {
+         text: "Nome das redes sociais",
+         font: {
+            color: getCSS('--secundary-color')
+        }
+      }
     }
 }
 const grafico = document.createElement('div')
