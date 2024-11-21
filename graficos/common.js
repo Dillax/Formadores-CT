@@ -8,4 +8,4 @@ const tickConfig = {
     size: 16,
     family: getCSS('--font')
 }
-export {getCSS tickConfig}
+export {getCSS, tickConfig}
